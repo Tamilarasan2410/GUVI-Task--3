@@ -3,7 +3,7 @@ TASK-3
 
 a)FOR->
 
-var obj = [ { person: "sai", age: "2", city: "HYD" }, { fname: "sarya", age: "5", city: "Goa" }, { fname: "raj kiran", age: "87", city: "lucknow" }, ]; 
+var obj = [ { person: "Tamil", age: "22", city: "TN" }, { fname: "GURU", age: "15", city: "BAN" }, { fname: "raj", age: "19", city: "KERALA" }, ]; 
 for(i=0;i<obj.length;i++){
     console.log(obj[i].fname)
     console.log(obj[i].age)
@@ -31,3 +31,92 @@ obj.forEach(function(objects){
     console.log(objects.city)
 })
 
+2)RESUME IN JSON FORMAT->
+----------------------------------------------------------------------------------------------->>>>>>>>>>>>>>>>>>>>>>>>>>>>
+{ 
+ "basics": { 
+ "name": "TAMILARASAN", 
+ "email": "tamila015@gmail.com", 
+ "phone": "9080501215", 
+ "date of birth": "24-02-20000", 
+ "nationality": "INDIAN", 
+ "url": "https://Tamilarasan.com", 
+ "summary": "A summary of Tamilarasan", 
+ "location": { 
+ "address": "Rajaji nagar", 
+ "postalCode": "638008", 
+ "city": "Salem", 
+ "countryCode": "IND", 
+  
+  
+ }, 
+ "objective": "A objective of ankesaiprasad", 
+ "carrer objective": { 
+ "Objective": "to be part of orginatizition where i could enchance myskills for devolpment  of organization and myself " 
+ }, 
+ "INTERNSHIP": [{ 
+ "name": "STOCK MANAGEMET USING IOT", 
+ "url": "https://STOCK.com", 
+ "startDate": "2020-01-01", 
+ "endDate": "2020-01-31", 
+ "summary": "Description…", 
+ "highlights": [
+ "done internship" 
+ ] 
+ }], 
+ "education": [{ 
+ "institution": "S J C INSTIUTE OF TECHNOLOGY",  "url": "https://Sjcinstitution.com/", 
+ "area": "karnataka", 
+ "studyType": "Bachelor", 
+ "startDate": "2016-06-26", 
+ "endDate": "2020-08-2020", 
+ "score": "",6.5 
+ "courses": [ 
+ "Bachelor of engineering - B.E" 
+ ] 
+ }], 
+ "12th standard": [{ 
+ "college": "sri Chaitanya educational society",  "url": "https://scsinstitution.com/", 
+ "area": "vijayawada", 
+ "year": "2014-2016", 
+ "score": "874" 
+ }], 
+ "10th standard": [{ 
+ "school": "prasad concept school", 
+ "url": "https://pcsinstitution.com/", 
+ "area": "anantapur", 
+ "year": "2014", 
+ "score": "8.8"
+ }], 
+ "final year project": [{ 
+ "name": "portable health care system using iot",  "technology": "Iot", 
+ "keywords": [ 
+ "HTML", 
+ "CSS", 
+ "JavaScript" 
+ ] 
+ }], 
+ "languages known": [{ 
+ "language": "English", 
+ "fluency": "Native speaker" 
+ "language": "Telugu", 
+ "fluency": "Native speaker" 
+ "language": "Hindi", 
+ "fluency": "Native speaker" 
+ "language": "Kannada", 
+ "fluency": "Native speaker" 
+ }], 
+ "interests": [{ 
+ "name": "reading books", 
+ "keywords": [ 
+ "maha bharatha", 
+ "Modern India" 
+ ] 
+ }],
+ "declaration": [{ 
+ "declaration": "saiprasad,here by declare that the above info is true to rest of my  knowledge ", 
+ }], 
+  
+} 
+Output: 
+{ "basics": { "name": "ANKESAIPRASAD", "email": "prince233@gmail.com",  "phone": "9125554321", "date of birth": "26-01-1999", "nationality": "INDIAN",  "url": "https://ankesaiprasad.com", "summary": "A summary of ankesaiprasad",  "location": { "address": "MAHATMA GANDHI COLONY", "postalCode":  "515001", "city": "anantapur", "countryCode": "IND", }, "objective": "A  objective of ankesaiprasad", "carrer objective": { "Objective": "to be part of  orginatizition where i could enchance myskills for devolpment of organization  and myself " }, "INTERNSHIP": [{ "name": "STOCK MANAGEMET USING  IOT", "url": "https://STOCK.com", "startDate": "2020-01-01", "endDate":  "2020-01-31", "summary": "Description…", "highlights": [ "done internship" ]  }], "education": [{ "institution": "S J C INSTIUTE OF TECHNOLOGY", "url":  "https://Sjcinstitution.com/", "area": "karnataka", "studyType": "Bachelor",  "startDate": "2016-06-26", "endDate": "2020-08-2020", "score": "",6.5  "courses": [ "Bachelor of engineering - B.E" ] }], "12th standard": [{ "college":  "sri Chaitanya educational society", "url": "https://scsinstitution.com/", "area":  "vijayawada", "year": "2014-2016", "score": "874" }], "10th standard": [{  "school": "prasad concept school", "url": "https://pcsinstitution.com/", "area":  "anantapur", "year": "2014", "score": "8.8" }], "final year project": [{ "name":  "portable health care system using iot", "technology": "Iot", "keywords": [  "HTML", "CSS", "JavaScript" ] }], "languages known": [{ "language":  "English", "fluency": "Native speaker" "language": "Telugu", "fluency": "Native  speaker" "language": "Hindi", "fluency": "Native speaker" "language":  "Kannada", "fluency": "Native speaker" }], "interests": [{ "name": "reading  books", "keywords": [ "maha bharatha", "Modern India" ] }], "declaration": [{  "declaration": "saiprasad,here by declare that the above info is true to rest of my  knowledge ", }], }
